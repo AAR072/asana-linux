@@ -1,0 +1,31 @@
+{
+  "name": "asana-linux",
+  "version": "1.0.0",
+  "description": "Unofficial Asana desktop client for Linux",
+  "author": {
+    "name": "AAR072",
+    "email": "aaoblivion@gmail.com"
+  },
+  "homepage": "https://github.com/AAR07/asana-linux",
+  "main": "main.js",
+  "build": {
+    "appId": "com.aar072.asana",
+    "productName": "Asana Linux",
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "icon": "icon.png",
+      "category": "Office",
+      "maintainer": "AAR072 <aaoblivion@gmail.com>"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
+
