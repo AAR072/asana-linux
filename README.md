@@ -14,11 +14,11 @@ This project provides two main installation methods to cover most Linux users:
 
 If you’re on Debian, Ubuntu, Mint, Pop!_OS, or any Debian-based distro:
 
-1. Download the `.deb` package `asana-linux_1.0.0_amd64.deb`.
+1. Download the `.deb` package `asana-linux_1.1.1_amd64.deb`.
 2. Install it using:
 
    ```bash
-   sudo apt install ./asana-linux_1.0.0_amd64.deb
+   sudo apt install ./asana-linux_1.1.1_amd64.deb
    ```
 
 3. Launch Asana from your app menu or by running:
@@ -33,17 +33,17 @@ If you’re on Debian, Ubuntu, Mint, Pop!_OS, or any Debian-based distro:
 
 If you’re on Arch Linux, Fedora, or other distros, use the AppImage:
 
-1. Download the AppImage file `Asana-Linux-1.0.0.AppImage`
+1. Download the AppImage file `Asana-Linux-1.1.1.AppImage`
 2. Make it executable:
 
    ```bash
-   chmod +x Asana-Linux-1.0.0.AppImage
+   chmod +x Asana-Linux-1.1.1.AppImage
    ```
 
 3. Run it directly:
 
    ```bash
-   ./Asana-linux-1.0.0.AppImage
+   ./Asana-linux-1.1.1.AppImage
    ```
 ---
 
