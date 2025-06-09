@@ -43,7 +43,7 @@ If you’re on Arch Linux, Fedora, or other distros, use the AppImage:
 3. Run it directly:
 
    ```bash
-   ./Asana-linux-1.1.1.AppImage
+   ./Asana-Linux-1.1.1.AppImage
    ```
 ---
 
