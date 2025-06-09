@@ -13,7 +13,7 @@
     "productName": "Asana Linux",
     "linux": {
       "target": ["AppImage", "deb"],
-      "icon": "icon.png",
+      "icon": "build/icon.png",
       "category": "Office",
       "maintainer": "AAR072 <aaoblivion@gmail.com>"
     }

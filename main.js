@@ -4,13 +4,16 @@ const path = require('path');
 let mainWindow;
 let tray = null;
 
+const iconPath = path.join(__dirname, 'icon.png');
+
 app.whenReady().then(() => {
   mainWindow = new BrowserWindow({
     width: 1200,
     height: 800,
+    icon: iconPath,
     webPreferences: {
-      nodeIntegration: false,
-      contextIsolation: true
+      contextIsolation: true,
+      nodeIntegration: false
     }
   });
 
